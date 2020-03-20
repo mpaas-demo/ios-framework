@@ -1,0 +1,15 @@
+//
+//  MPFrameworkDemo_pod-Prefix.pch
+//  MPFrameworkDemo_pod
+//
+//  Created by yangwei on 2019/03/27.
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "MPFrameworkDemo_pod-mPaaS-Headers.h"
+
+#import "MPFrameworkDemoDef.h"
+#endif
+// MPAAS HEADERS END
