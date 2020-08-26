@@ -5,7 +5,6 @@
 
 #import <UIKit/UIKit.h>
 #import <APCommonUI/APCommonUI.h>
-#import <MPBadgeService/MPBadgeService.h>
 #import <APMobileFramework/APMobileFramework.h>
 #import <APLog/APLog.h>
 #import <APRemoteLogging/APRemoteLogging.h>

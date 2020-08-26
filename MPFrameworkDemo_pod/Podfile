@@ -1,7 +1,7 @@
 plugin "cocoapods-mPaaS"
 source "https://code.aliyun.com/mpaas-public/podspecs.git"
-mPaaS_baseline '10.1.60'  # 请将 x.x.x 替换成真实基线版本
-mPaaS_version_code 28   # This line is maintained by MPaaS plugin automatically. Please don't modify.
+mPaaS_baseline '10.1.68'  # 请将 x.x.x 替换成真实基线版本
+mPaaS_version_code 15   # This line is maintained by MPaaS plugin automatically. Please don't modify.
 
 platform :ios, '9.0'
 

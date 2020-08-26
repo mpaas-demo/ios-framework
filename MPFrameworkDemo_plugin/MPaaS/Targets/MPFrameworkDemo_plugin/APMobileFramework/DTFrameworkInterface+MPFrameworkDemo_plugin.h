@@ -2,8 +2,8 @@
 //  DTFrameworkInterface+MPFrameworkDemo_plugin.h
 //  MPFrameworkDemo_plugin
 //
-//  Created by vivi.yw on 2019/03/28.
-//  Copyright © 2019 Alibaba. All rights reserved.
+//  Created by vivi.yw on 2020/08/26.
+//  Copyright © 2020 Alibaba. All rights reserved.
 //
 
 #import <APMobileFramework/DTFrameworkInterface.h>

@@ -2,8 +2,8 @@
 //  DTFrameworkInterface+MPFrameworkDemo_plugin.m
 //  MPFrameworkDemo_plugin
 //
-//  Created by vivi.yw on 2019/03/28.
-//  Copyright © 2019 Alibaba. All rights reserved.
+//  Created by vivi.yw on 2020/08/26.
+//  Copyright © 2020 Alibaba. All rights reserved.
 //
 
 #import "DTFrameworkInterface+MPFrameworkDemo_plugin.h"
@@ -20,7 +20,7 @@
 
 - (NSTimeInterval)logReportActiveMinInterval
 {
-    return 0;
+    return 1800;
 }
 
 - (BOOL)shouldLogStartupConsumption
@@ -41,6 +41,16 @@
 - (DTNavigationBarBackTextStyle)navigationBarBackTextStyle
 {
     return DTNavigationBarBackTextStyleAlipay;
+}
+
+- (void)application:(UIApplication *)application beforeDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+{
+    // Init mPaas Service
+}
+
+- (void)application:(UIApplication *)application afterDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+{
+    // Init mPaas Service
 }
 
 @end
